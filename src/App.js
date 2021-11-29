@@ -2,13 +2,17 @@ import React from "react";
 import "./App.css";
 import Row from "./Row";
 import requests from "./request";
+import Banner from "./Banner";
 
 function App() {
   return (
     <div className="App">
-      <h2>🚀Netflix-Clone🚀</h2>
+      {/* NavBar */}
+      {/* Banner */}
+      <Banner />
+      {/* Rows */}
       <Row
-        title="NETFLIX ORGINALS"
+        title="NETFLIX ORIGINALS"
         fetchURL={requests.fetchNetflixOrginals}
         isLargeRow={true}
       />
