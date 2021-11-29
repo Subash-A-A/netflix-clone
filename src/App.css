@@ -1,7 +1,18 @@
 * {
   margin: 0;
 }
-
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #111;
+}
+body::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #e50914;
+  border-radius: 20px;
+}
+body {
+  overflow-x: hidden;
+}
 .App {
   background-color: #111;
 }
