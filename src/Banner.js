@@ -8,7 +8,7 @@ function Banner() {
 
   useEffect(() => {
     async function fetchData() {
-      const req = await axios.get(requests?.fetchNetflixOrginals);
+      const req = await axios.get(requests?.fetchTrending);
       //   console.log("Banner Request\n");
       //   console.log(req.data.results);
       setMovie(
